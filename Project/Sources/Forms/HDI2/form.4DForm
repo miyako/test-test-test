@@ -24,9 +24,9 @@
 				"Tab Control": {
 					"type": "tab",
 					"top": 20,
-					"left": 25,
-					"width": 1491,
-					"height": 742,
+					"left": 20,
+					"width": 1030,
+					"height": 520,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "Tab Control",
@@ -48,10 +48,10 @@
 			"objects": {
 				"Variable": {
 					"type": "input",
-					"top": 87,
-					"left": 63,
-					"width": 1401,
-					"height": 608,
+					"top": 90,
+					"left": 50,
+					"width": 970,
+					"height": 430,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "TextInfo",
@@ -85,13 +85,13 @@
 				"List Box": {
 					"type": "listbox",
 					"top": 120,
-					"left": 46,
-					"width": 1442,
-					"height": 607,
+					"left": 40,
+					"width": 990,
+					"height": 400,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"resizingMode": "legacy",
-					"focusable": false,
+					"focusable": true,
 					"hideExtraBlankRows": true,
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
@@ -104,6 +104,7 @@
 						"onSelectionChange",
 						"onHeaderClick"
 					],
+					"hideFocusRing": true,
 					"columns": [
 						{
 							"name": "U_Icon",
@@ -131,11 +132,12 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_User",
-							"width": 221,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -159,11 +161,12 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_MachineName",
-							"width": 405,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -187,11 +190,12 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_SessionName",
-							"width": 314,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -215,7 +219,8 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_IPAddress",
@@ -242,7 +247,8 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_LoginDate",
@@ -269,7 +275,8 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_CPUTime",
@@ -297,12 +304,13 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "U_Activity",
 							"dataSourceTypeHint": "number",
-							"width": 107,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -328,15 +336,16 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						}
 					]
 				},
 				"Text2": {
 					"type": "text",
-					"top": 404,
-					"left": 478,
-					"width": 659,
+					"top": 269,
+					"left": 173,
+					"width": 699,
 					"height": 25,
 					"visibility": "hidden",
 					"class": "warning-text",
@@ -363,13 +372,13 @@
 				"ProcessesList": {
 					"type": "listbox",
 					"top": 120,
-					"left": 46,
-					"width": 1446,
-					"height": 607,
+					"left": 40,
+					"width": 990,
+					"height": 400,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"resizingMode": "legacy",
-					"focusable": false,
+					"focusable": true,
 					"hideExtraBlankRows": true,
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
@@ -382,10 +391,12 @@
 						"onSelectionChange",
 						"onHeaderClick"
 					],
+					"right": 1030,
+					"hideFocusRing": true,
 					"columns": [
 						{
 							"name": "P_ProcessName",
-							"width": 310,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -408,11 +419,12 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_Session",
-							"width": 314,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -435,11 +447,12 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_Type",
-							"width": 332,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -462,7 +475,8 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_Num",
@@ -488,7 +502,8 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_State",
@@ -514,7 +529,8 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_CPUTime",
@@ -541,11 +557,12 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_Activity",
-							"width": 115,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
@@ -568,12 +585,13 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						},
 						{
 							"name": "P_SessionID",
 							"dataSource": "P_SessionID",
-							"width": 258,
+							"width": 120,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"visibility": "hidden",
@@ -597,14 +615,15 @@
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"enterable": false
 						}
 					]
 				},
 				"Button": {
 					"type": "button",
 					"top": 69,
-					"left": 1250,
+					"left": 790,
 					"width": 242,
 					"sizingX": "move",
 					"text": ":xliff:Open in web browser",
@@ -613,9 +632,16 @@
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"bottom": 89,
+					"height": 20
 				}
 			}
 		}
-	]
+	],
+	"geometryStamp": 214,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }
