@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="28">
+	<com.4d>
+		<general startup_environnement="1"/>
+		<interface>
+			<user flush_window="false" print_progress="false" splash_screen="false"/>
+			<shortcuts>
+				<accept_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+				<cancel_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+				<add_subform alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+			</shortcuts>
+		</interface>
+		<database>
+			<cache size_fixed="32" size_maximum="100" size_reserved="128"/>
+			<misc standard_xpath="false" non_blocking_printing="false" legacy_print_rendering="true"/>
+		</database>
+		<web>
+			<standalone_server>
+				<configuration allow_ssl="false" port_number="80" publish_at_startup="true" session_mode="2" automatic_session_management="true">
+					<hosts>
+						<host html_root="./www/" id="0" name="default"/>
+					</hosts>
+				</configuration>
+				<misc/>
+				<rest launch_at_startup="true"/>
+				<webservices>
+					<server allow_requests="true" name="A_WebService"/>
+				</webservices>
+				<options>
+					<keep_alive requests_number="100"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+				</options>
+			</standalone_server>
+			<remote>
+				<configuration allow_ssl="false" port_number="80" publish_at_startup="true" session_mode="2" automatic_session_management="true">
+					<hosts>
+						<host html_root="C:/Users/fmainguene/Perforce/fabrice.mainguene_VM10-MAINGUENE_5042/depot/4DDatabases/HDIs/v16R4/HDI_Get process activity.4dbase/www/" id="default"/>
+					</hosts>
+				</configuration>
+				<misc/>
+				<options>
+					<cache use_4d_web_cache="false"/>
+				</options>
+			</remote>
+		</web>
+		<server>
+			<network>
+				<options use_legacy_network_layer="false"/>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<deployment>
+			<options/>
+		</deployment>
+		<sql>
+			<publication port_number="19812"/>
+		</sql>
+		<php ip_address="127.0.0.1"/>
+		<compiler>
+			<options compilation_path="1"/>
+		</compiler>
+	</com.4d>
+</preferences>

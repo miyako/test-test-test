@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_Get process activity" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="SAMPLES" uuid="4ECA3993A721304DBA883578F404A55E" id="2">
+		<field name="ID" uuid="94ABA958BD55DC4EB991FB6875033A37" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Label" uuid="266842B6493DBA4E9103A7EB9FF85960" type="10" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="94ABA958BD55DC4EB991FB6875033A37"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="15D8C2D7C841924EA45C58488E252CF9" type="7">
+		<field_ref uuid="94ABA958BD55DC4EB991FB6875033A37" name="ID">
+			<table_ref uuid="4ECA3993A721304DBA883578F404A55E" name="SAMPLES"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":HowDoI.4DD" package_name="HDI_Get process activity" structure_file_name="HowDoI">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
