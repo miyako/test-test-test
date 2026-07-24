@@ -11,16 +11,13 @@
 // $1 -> Object create by Get process activity
 // ----------------------------------------------------
 
-C_OBJECT:C1216($activities; $1)
+#DECLARE($activities : Object)
 
 ARRAY OBJECT:C1221($processes; 0)
 ARRAY OBJECT:C1221($sessions; 0)
-C_LONGINT:C283($l_processes; $l_sessions; $s; $p)
-C_TEXT:C284($sessionID)
-
-C_REAL:C285($cpuTime; $cpuUsage)
-
-$activities:=$1
+var $l_processes; $l_sessions; $s; $p : Integer
+var $sessionID : Text
+var $cpuTime; $cpuUsage : Real
 
 OB GET ARRAY:C1229($activities; "processes"; $processes)
 OB GET ARRAY:C1229($activities; "sessions"; $sessions)

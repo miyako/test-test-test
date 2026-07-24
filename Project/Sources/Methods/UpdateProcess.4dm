@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 ARRAY TEXT:C222($column2; 0)  // process name
 ARRAY TEXT:C222($column3; 0)  //Session
 ARRAY TEXT:C222($column4; 0)  //Type
@@ -8,10 +8,10 @@ ARRAY TEXT:C222($column7; 0)  //CPU time
 ARRAY REAL:C219($column8; 0)  //Activity
 ARRAY TEXT:C222($column9; 0)  //Session ID
 
-C_OBJECT:C1216($activities)
-C_OBJECT:C1216($process)
+var $activities : Object
+var $process : Object
 ARRAY OBJECT:C1221($processes; 0)
-C_LONGINT:C283($l_processes; $i)
+var $l_processes; $i : Integer
 
 If (Application type:C494=4)  // 4D server mode
 	$activities:=GetProcessActivityOnServer

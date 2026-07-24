@@ -1,4 +1,4 @@
-//%attributes = {"executedOnServer":true}
+//%attributes = {"invisible":true,"executedOnServer":true}
 // ----------------------------------------------------
 // Nom utilisateur (OS) : fmainguene
 // Date et heure : 26/04/17, 14:28:15
@@ -10,5 +10,6 @@
 // $1 -> longint : parmeter for Get  process activity command
 // ----------------------------------------------------
 
+#DECLARE->$activities : Object
 
-$0:=Process activity:C1495
+$activities:=Process activity:C1495

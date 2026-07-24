@@ -1,0 +1,33 @@
+.warning-text {
+	font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+	.warning-text {
+		stroke: #FF4D00;
+	}
+
+	.table-input {
+		fill: #FFFFFF;
+		stroke: #000000;
+	}
+
+	.hdi-list {
+		fill: #FDFED3;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.warning-text {
+		stroke: #FF8A5B;
+	}
+
+	.table-input {
+		fill: #2A2A2A;
+		stroke: #E0E0E0;
+	}
+
+	.hdi-list {
+		fill: #3A2F1F;
+	}
+}

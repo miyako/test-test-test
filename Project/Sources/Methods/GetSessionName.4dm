@@ -11,23 +11,24 @@
 // $2 -> string containing the session ID searched
 // ----------------------------------------------------
 
-ARRAY OBJECT:C1221($sessions; 0)
-C_TEXT:C284($sessionID; $2)
+#DECLARE($activities : Object; $sessionID : Text)->$sessionName : Text
 
-OB GET ARRAY:C1229($1; "sessions"; $sessions)
-$sessionID:=$2
+ARRAY OBJECT:C1221($sessions; 0)
+var $l_sessions; $i : Integer
+
+OB GET ARRAY:C1229($activities; "sessions"; $sessions)
 
 $l_sessions:=Size of array:C274($sessions)
 
 // default value
-$0:="-"
+$sessionName:="-"
 
 For ($i; 1; $l_sessions)
 	
 	// verify of the session ID
-	If $sessions{$i}.ID=$sessionID
+	If ($sessions{$i}.ID=$sessionID)
 		// return the session name
-		$0:=$sessions{$i}.systemUserName
+		$sessionName:=$sessions{$i}.systemUserName
 		$i:=$l_sessions+1
 	End if 
 	

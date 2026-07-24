@@ -14,31 +14,24 @@
 // $3 -> default type ("bool","number" or "text" for the return value (by default : C_Text)
 // ----------------------------------------------------
 
-C_OBJECT:C1216($obj; $1; $0)
-C_TEXT:C284($parameter; $2)
-C_TEXT:C284($defaultType; $3)
+#DECLARE($obj : Object; $parameter : Text; $defaultType : Text)->$result : Object
 
-$0:=New object:C1471
-$obj:=$1
-$parameter:=$2
+$result:=New object:C1471
 
-If (Count parameters:C259=3)
-	$defaultType:=$3
-Else 
+If ($defaultType="")
 	$defaultType:="text"
 End if 
 
 If ($obj[$parameter]#Null:C1517)
-	$0.value:=$obj[$parameter]
+	$result.value:=$obj[$parameter]
 Else 
 	// creation of the default result
 	Case of 
 		: ($defaultType="bool")
-			$0.value:=False:C215
+			$result.value:=False:C215
 		: $defaultType="number"
-			$0.value:=0
+			$result.value:=0
 		Else 
-			$0.value:=""
+			$result.value:=""
 	End case 
 End if 
-

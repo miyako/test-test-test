@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-	<file datatype="plaintext" original="HDI_GetprocessActivity" source-language="en" target-language="ja">
+	<file datatype="plaintext" original="HDI_GetprocessActivity" source-language="en" target-language="en">
 		<body>
 			<trans-unit id="1" resname="MenuItemDemo">
 				<source>Demo...</source>
-				<target>デモ...</target>
+				<target>Demo...</target>
 			</trans-unit>
 			<trans-unit id="2" resname="4D v16 R4 and above…">
 				<source>4D v16 R4 and above…</source>
-				<target>4D v16 R4以上…</target>
+				<target>4D v16 R4 and above…</target>
 			</trans-unit>
 			<trans-unit id="3" resname="How Do I...">
 				<source>How Do I...</source>
-				<target>どうやったら、</target>
+				<target>How Do I...</target>
 			</trans-unit>
 			<trans-unit id="4" resname="… monitor process activity?">
 				<source>… monitor process activity?</source>
-				<target>... プロセス処理をモニターできるのか？</target>
+				<target>… monitor process activity?</target>
 			</trans-unit>
 			<trans-unit id="5" resname="Demo">
 				<source>Demo</source>
-				<target>デモ</target>
+				<target>Demo</target>
 			</trans-unit>
 			<trans-unit id="6" resname="4D User">
 				<source>4D User</source>
-				<target>4Dユーザー</target>
+				<target>4D User</target>
 			</trans-unit>
 			<trans-unit id="7" resname="Machine name">
 				<source>Machine name</source>
-				<target>マシン名</target>
+				<target>Machine name</target>
 			</trans-unit>
 			<trans-unit id="8" resname="Session name">
 				<source>Session name</source>
-				<target>セッション名</target>
+				<target>Session name</target>
 			</trans-unit>
 			<trans-unit id="9" resname="IP address">
 				<source>IP address</source>
-				<target>IPアドレス</target>
+				<target>IP address</target>
 			</trans-unit>
 			<trans-unit id="10" resname="Login date">
 				<source>Login date</source>
-				<target>ログイン日時</target>
+				<target>Login date</target>
 			</trans-unit>
 			<trans-unit id="11" resname="CPU time">
 				<source>CPU time</source>
-				<target>CPU時間</target>
+				<target>CPU time</target>
 			</trans-unit>
 			<trans-unit id="12" resname="Activity (%)">
 				<source>Activity (%)</source>
-				<target>アクティビティ (%)</target>
+				<target>Activity (%)</target>
 			</trans-unit>
 			<trans-unit id="13" resname="List of users">
 				<source>List of users</source>
-				<target>ユーザー一覧</target>
+				<target>List of users</target>
 			</trans-unit>
 			<trans-unit id="14" resname="The users list is available only if Get process activity is executed on server">
 				<source>The users list is available only if Get process activity is executed on server</source>
-				<target>ユーザー一覧は、Get process activityをサーバーで実行した場合のみ利用できます</target>
+				<target>The users list is available only if Get process activity is executed on server</target>
 			</trans-unit>
 			<trans-unit id="15" resname="List of processes">
 				<source>List of processes</source>
-				<target>プロセス一覧</target>
+				<target>List of processes</target>
 			</trans-unit>
 			<trans-unit id="16" resname="SessionID">
 				<source>SessionID</source>
-				<target>セッションID</target>
+				<target>SessionID</target>
 			</trans-unit>
 			<trans-unit id="17" resname="State">
 				<source>State</source>
-				<target>状態</target>
+				<target>State</target>
 			</trans-unit>
 			<trans-unit id="18" resname="Num">
 				<source>Num</source>
-				<target>番号</target>
+				<target>Num</target>
 			</trans-unit>
 			<trans-unit id="19" resname="Type">
 				<source>Type</source>
-				<target>タイプ</target>
+				<target>Type</target>
 			</trans-unit>
 			<trans-unit id="20" resname="Session">
 				<source>Session</source>
-				<target>セッション</target>
+				<target>Session</target>
 			</trans-unit>
 			<trans-unit id="21" resname="Process name">
 				<source>Process name</source>
-				<target>プロセス名</target>
+				<target>Process name</target>
 			</trans-unit>
 			<trans-unit id="22" resname="Open in web browser">
 				<source>Open in web browser</source>
-				<target>Webブラウザーで開く</target>
+				<target>Open in web browser</target>
 			</trans-unit>
 			<trans-unit id="23" resname="HDI_DesignModeWarning">
 				<source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-				<target>このバージョンでデザインモードからこのHDIを開かないでください。機能差によりフォームやメソッドが変更される可能性があります。</target>
+				<target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
 			</trans-unit>
 			<trans-unit id="24" resname="HDI_VersionWarning">
 				<source>Sorry, this "How do I" (HDI) example must be used with a newer version of 4D.</source>
-				<target>この "How do I" (HDI) サンプルは、より新しい4Dバージョンで実行してください。</target>
+				<target>Sorry, this "How do I" (HDI) example must be used with a newer version of 4D.</target>
 			</trans-unit>
 			<trans-unit id="25" resname="HDI_PluginWarning">
 				<source>The plugin xxx is mandatory</source>
-				<target>このサンプルの実行には必須プラグインが必要です</target>
+				<target>The plugin xxx is mandatory</target>
 			</trans-unit>
 			<trans-unit id="26" resname="HDI2_TabInfo">
 				<source>Info</source>
-				<target>情報</target>
+				<target>Info</target>
 			</trans-unit>
 			<trans-unit id="27" resname="HDI2_TabUsers">
 				<source>Users</source>
-				<target>ユーザー</target>
+				<target>Users</target>
 			</trans-unit>
 			<trans-unit id="28" resname="HDI2_TabProcesses">
 				<source>Processes</source>
-				<target>プロセス</target>
+				<target>Processes</target>
 			</trans-unit>
 			<trans-unit id="29" resname="Table_SAMPLES">
 				<source>SAMPLES</source>
@@ -124,7 +124,7 @@
 			</trans-unit>
 			<trans-unit id="31" resname="Table_LabelLabel">
 				<source>Label : </source>
-				<target>ラベル : </target>
+				<target>Label : </target>
 			</trans-unit>
 		</body>
 	</file>

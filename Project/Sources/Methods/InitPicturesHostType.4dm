@@ -1,4 +1,4 @@
-//%attributes = {"executedOnServer":true}
+//%attributes = {"invisible":true,"executedOnServer":true}
 // ----------------------------------------------------
 // Nom utilisateur (OS) : fmainguene
 // Date et heure : 27/04/17, 16:23:46
@@ -10,8 +10,9 @@
 // Paramètres
 // ----------------------------------------------------
 
-C_OBJECT:C1216($osPictures)
-C_PICTURE:C286($tmp)
+#DECLARE->$osPictures : Object
+
+var $tmp : Picture
 
 $osPictures:=New object:C1471
 
@@ -28,5 +29,3 @@ $osPictures.browser:=$tmp
 
 READ PICTURE FILE:C678($resourcePath+"Logo_unknown.png"; $tmp; *)
 $osPictures.unknown:=$tmp
-
-$0:=$osPictures

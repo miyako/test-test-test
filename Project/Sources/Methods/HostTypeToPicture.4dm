@@ -11,20 +11,15 @@
 // $1 -> string : host type
 // ----------------------------------------------------
 
-C_TEXT:C284($hostType; $1)
-C_PICTURE:C286($0)
-
-$resourcePath:=Get 4D folder:C485(Current resources folder:K5:16)+"Images\\"
-
-$hostType:=$1
+#DECLARE($hostType : Text)->$picture : Picture
 
 Case of 
-	: $hostType="windows"
-		$0:=OSPictures.windows
-	: $hostType="mac"
-		$0:=OSPictures.mac
-	: $hostType="browser"
-		$0:=OSPictures.browser
+	: ($hostType="windows")
+		$picture:=OSPictures.windows
+	: ($hostType="mac")
+		$picture:=OSPictures.mac
+	: ($hostType="browser")
+		$picture:=OSPictures.browser
 	Else 
-		$0:=OSPictures.unknown
+		$picture:=OSPictures.unknown
 End case 
