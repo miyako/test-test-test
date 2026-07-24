@@ -10,28 +10,27 @@
 // $1 -> longint : state of the process
 // ----------------------------------------------------
 
-C_LONGINT:C283($state; $1)
+#DECLARE($state : Integer)->$label : Text
 
-$state:=$1
 Case of 
-	: $state=-1
-		$0:="Aborted"
-	: $state=1
-		$0:="Delayed"
-	: $state=-100
-		$0:="Does not exist"
-	: $state=0
-		$0:="Executing"
-	: $state=6
-		$0:="Hidden modal dialog"
-	: $state=5
-		$0:="Paused"
-	: $state=3
-		$0:="Waiting for input output"
-	: $state=4
-		$0:="Waiting for internal flag"
-	: $state=2
-		$0:="Waiting for user event"
+	: ($state=-1)
+		$label:="Aborted"
+	: ($state=1)
+		$label:="Delayed"
+	: ($state=-100)
+		$label:="Does not exist"
+	: ($state=0)
+		$label:="Executing"
+	: ($state=6)
+		$label:="Hidden modal dialog"
+	: ($state=5)
+		$label:="Paused"
+	: ($state=3)
+		$label:="Waiting for input output"
+	: ($state=4)
+		$label:="Waiting for internal flag"
+	: ($state=2)
+		$label:="Waiting for user event"
 	Else 
-		$0:="??"
-End case 
+		$label:="??"
+End case

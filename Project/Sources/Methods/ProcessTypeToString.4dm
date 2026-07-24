@@ -10,7 +10,7 @@
 // $1 -> longint : type of process
 // ----------------------------------------------------
 
-C_LONGINT:C283($processType; $1)
+var $processType : Integer
 
 $processType:=$1
 

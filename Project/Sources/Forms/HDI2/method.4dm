@@ -1,4 +1,4 @@
-C_OBJECT:C1216(OSPictures)
+var OSPictures : Object
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
@@ -14,4 +14,3 @@ Case of
 		End if 
 		
 End case 
-

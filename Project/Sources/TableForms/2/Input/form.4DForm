@@ -45,7 +45,7 @@
 					"stroke": "#000000",
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
-					"text": "SAMPLES"
+					"text": ":xliff:Table_SAMPLES"
 				},
 				"vRecNum": {
 					"type": "input",
@@ -112,7 +112,7 @@
 					"dataSource": "[SAMPLES:2]Label:2",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"class": "table-input",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -291,7 +291,7 @@
 					"height": 15,
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "ID : "
+					"text": ":xliff:Table_IDLabel"
 				},
 				"Text8": {
 					"type": "text",
@@ -301,7 +301,7 @@
 					"height": 15,
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "Label : "
+					"text": ":xliff:Table_LabelLabel"
 				}
 			}
 		}

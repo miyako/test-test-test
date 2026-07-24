@@ -1,11 +1,11 @@
-//%attributes = {"publishedWeb":true}
-C_TEXT:C284($1)
-C_OBJECT:C1216($activities)
-C_OBJECT:C1216($process)
+//%attributes = {"invisible":true,"publishedWeb":true}
+#DECLARE($path : Text)
+var $activities : Object
+var $process : Object
 ARRAY OBJECT:C1221($processes; 0)
-C_LONGINT:C283($l_processes; $i)
+var $l_processes; $i : Integer
 
-C_OBJECT:C1216($tmp_process)
+var $tmp_process : Object
 ARRAY OBJECT:C1221($returned_processes; 0)
 
 If (Application type:C494=4)  // 4D server mode

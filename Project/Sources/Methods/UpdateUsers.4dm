@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 ARRAY PICTURE:C279($column1; 0)  // Icon
 ARRAY TEXT:C222($column2; 0)  // 4D user
 ARRAY TEXT:C222($column3; 0)  //Machine name
@@ -9,10 +9,10 @@ ARRAY TEXT:C222($column7; 0)  //CPU Time
 ARRAY REAL:C219($column8; 0)  //Activity
 
 
-C_OBJECT:C1216($activities)
-C_OBJECT:C1216($session)
+var $activities : Object
+var $session : Object
 ARRAY OBJECT:C1221($sessions; 0)
-C_LONGINT:C283($l_sessions; $i)
+var $l_sessions; $i : Integer
 
 If (Application type:C494=4)
 	$activities:=GetProcessActivityOnServer

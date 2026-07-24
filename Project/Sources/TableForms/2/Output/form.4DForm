@@ -64,7 +64,7 @@
 					"sizingX": "grow",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "ID : "
+					"text": ":xliff:Table_IDLabel"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -75,7 +75,7 @@
 					"sizingX": "grow",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "Label : "
+					"text": ":xliff:Table_LabelLabel"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -126,7 +126,7 @@
 					"dataSource": "[SAMPLES:2]Label:2",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"class": "table-input",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
