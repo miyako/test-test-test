@@ -10,6 +10,10 @@
 // Param春res
 // ----------------------------------------------------
 
-QUERY:C277([SAMPLES:2]; [SAMPLES:2]ID:1=2)
+var $json : Collection
+$json:=JSON Parse:C1218(File:C1566(Localized document path:C1105("SAMPLES.json"); fk platform path:K87:2).getText())
 
-TextInfo:=[SAMPLES:2]Label:2
+var $SAMPLE : Object
+$SAMPLE:=$json.query("ID == :1"; 2).first()
+
+TextInfo:=$SAMPLE.Label
