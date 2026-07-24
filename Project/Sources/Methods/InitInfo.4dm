@@ -14,6 +14,6 @@ var $json : Collection
 $json:=JSON Parse:C1218(File:C1566(Localized document path:C1105("SAMPLES.json"); fk platform path:K87:2).getText())
 
 var $SAMPLE : Object
-$SAMPLE:=$json.query("ID == :1"; 2).first()
+$SAMPLE:=$json.query("ID == :1"; 1).first()
 
 TextInfo:=$SAMPLE.Label

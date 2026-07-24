@@ -162,7 +162,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "U_MachineName",
@@ -191,7 +192,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "U_SessionName",
@@ -220,7 +222,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "U_IPAddress",
@@ -248,7 +251,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "U_LoginDate",
@@ -276,7 +280,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "U_CPUTime",
@@ -305,7 +310,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "U_Activity",
@@ -337,7 +343,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -420,7 +427,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_Session",
@@ -448,7 +456,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_Type",
@@ -476,7 +485,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_Num",
@@ -503,7 +513,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_State",
@@ -530,7 +541,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_CPUTime",
@@ -558,7 +570,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_Activity",
@@ -586,7 +599,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						},
 						{
 							"name": "P_SessionID",
@@ -616,7 +630,8 @@
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
 							},
-							"enterable": false
+							"enterable": false,
+							"truncateMode": "none"
 						}
 					]
 				},

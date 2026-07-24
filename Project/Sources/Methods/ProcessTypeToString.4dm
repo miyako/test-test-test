@@ -115,7 +115,8 @@ Case of
 		$0:="Logger"
 	: $processType=Compiler process:K36:51
 		$0:="Compiler process"
+	: ($processType=Main 4D process:K36:52)
+		$0:="Main 4D process"
 	Else 
 		$0:="??"
-		
 End case 
