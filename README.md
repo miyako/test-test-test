@@ -32,4 +32,4 @@ Actual per-session token usage, pulled from Copilot session records.
 <img width="360" height="352" alt="Screenshot 2026-07-24 at 12 27 07" src="https://github.com/user-attachments/assets/0b9d79ac-9bf3-4545-aebc-23cd2b9d47b7" />
 <img width="1070" height="592" alt="Screenshot 2026-07-24 at 12 27 10" src="https://github.com/user-attachments/assets/d735842a-976a-4377-8841-0560d32eef58" />
 <img width="1070" height="592" alt="Screenshot 2026-07-24 at 12 27 14" src="https://github.com/user-attachments/assets/653f78fc-c57a-4d49-be8e-dd4a4b3f6b40" />
-<img width="1070" height="592" alt="Screenshot 2026-07-24 at 12 30 32" src="https://github.com/user-attachments/assets/63e405a8-284c-4c60-9516-3f64b3da251d" />
+<img width="1070" height="592" alt="Screenshot 2026-07-24 at 12 34 23" src="https://github.com/user-attachments/assets/993081e2-dd3e-4de8-9575-47f2ac18fc2f" />
